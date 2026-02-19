@@ -1,0 +1,596 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #005a32 0%, #005a32 100%);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.college-name {
+    font-size: 1.1em;
+    opacity: 0.95;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Main Content */
+main {
+    padding: 60px 0;
+}
+
+section {
+    margin-bottom: 60px;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #005a32;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #005a32;
+    padding-bottom: 15px;
+}
+
+h3 {
+    color: #005a32;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+/* Definition Section */
+.definition-section p {
+    font-size: 1.05em;
+    color: #555;
+}
+
+/* Programs Section */
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.program-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #005a32;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.program-card h3 {
+    color: #005a32;
+}
+
+.program-card p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.info-block {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.info-block h3 {
+    color: #005a32;
+    margin-bottom: 15px;
+    font-size: 1.15em;
+}
+
+.info-block p {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.8;
+}
+
+.info-block a {
+    color: #005a32;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.info-block a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Full Page Styles */
+.contact-full-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-text {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-column h3 {
+    color: #005a32;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.info-box {
+    background: #f5f7fa;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #005a32;
+}
+
+.info-box p {
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.info-box a {
+    color: #005a32;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+.directions-note {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Office Hours Table */
+.office-hours-section {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.office-hours-section h3 {
+    color: #005a32;
+    margin-bottom: 20px;
+}
+
+.hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.hours-table tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.hours-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+.hours-table tr:last-child {
+    border-bottom: none;
+}
+
+.note {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Connect Section */
+.connect-section {
+    margin-bottom: 40px;
+}
+
+.connect-section h3 {
+    color: #005a32;
+    margin-bottom: 25px;
+}
+
+.connect-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.connect-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8f0f5 100%);
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #d0dce5;
+    transition: transform 0.3s ease;
+}
+
+.connect-card:hover {
+    transform: translateY(-3px);
+}
+
+.connect-card h4 {
+    color: #005a32;
+    margin-bottom: 12px;
+    font-size: 1.1em;
+}
+
+.connect-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.connect-card li {
+    margin-bottom: 8px;
+}
+
+.connect-card a {
+    color: #005a32;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.connect-card a:hover {
+    text-decoration: underline;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #005a32;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #004422;
+    text-decoration: none;
+}
+
+/* Contact Form */
+.contact-form-section {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-form-section h3 {
+    color: #005a32;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #005a32;
+    box-shadow: 0 0 5px rgba(0, 90, 50, 0.2);
+}
+
+.submit-btn {
+    background: #005a32;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #004422;
+}
+
+/* Programs Full Page Styles */
+.programs-full-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.program-detail {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 4px solid #005a32;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.program-detail h3 {
+    color: #005a32;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.program-detail > p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.program-details-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.program-details-box h4 {
+    color: #005a32;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.program-details-box ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.program-details-box li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+}
+
+.program-details-box li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #005a32;
+    font-weight: bold;
+}
+
+.program-details-box p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+.program-details-box a {
+    color: #005a32;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.program-details-box a:hover {
+    text-decoration: underline;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid #005a32;
+}
+
+.cta-section h3 {
+    color: #005a32;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 1.05em;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #005a32;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #004422;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 90, 50, 0.2);
+}
+
+.btn-secondary {
+    background: white;
+    color: #005a32;
+    border: 2px solid #005a32;
+}
+
+.btn-secondary:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+    background: #005a32;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 1.8em;
+    }
+    
+    .college-name {
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    section {
+        padding: 25px;
+        margin-bottom: 40px;
+    }
+    
+    main {
+        padding: 30px 0;
+    }
+    
+    .programs-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 25px 0;
+    }
+    
+    .site-title {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}
