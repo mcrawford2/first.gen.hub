@@ -1,14 +1,14 @@
 ## Client Brief
 
 **Client:** Babson College First-Generation Student Success Office
-**Purpose:** A hub for all of their resources, offerings, and general informaiton
+**Purpose:** A hub for all of their resources, offerings, and general information
 **Audience:** Incoming Babson first generation students looking for information, current first generation students wanting to get involved, and first generation student office workers for organization
 **Key action:** gain a deeper understanding of what being first-gen means and how to get involved
 
 **Pages/sections needed:**
 - landing/home page: definition/requirements to be considered first gen, goals of the office
 - different programs/offerings
-- contact info
+- contact info and office location
 
 **Content status:**
 - need to gain confidence an all pages and sections needed
