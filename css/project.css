@@ -183,7 +183,7 @@ p {
 }
 
 .program-card h3 {
-    color: #005a32;
+    color: var(--green);
 }
 
 .program-card h4 {
@@ -206,16 +206,16 @@ p {
 }
 
 .program-detail {
-    background: white;
+    background: var(--white);
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
-    border-left: 4px solid #005a32;
+    border-left: 4px solid var(--green);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .program-detail h3 {
-    color: #005a32;
+    color: var(--green);
     font-size: 1.4em;
     margin-bottom: 20px;
 }
@@ -234,7 +234,7 @@ p {
 }
 
 .program-details-box h4 {
-    color: #005a32;
+    color: var(--green);
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -256,7 +256,7 @@ p {
     content: "▸";
     position: absolute;
     left: 0;
-    color: #005a32;
+    color: var(--green);
     font-weight: bold;
 }
 
@@ -266,7 +266,7 @@ p {
 }
 
 .program-details-box a {
-    color: #005a32;
+    color: var(--green);
     text-decoration: none;
     font-weight: 600;
 }
@@ -281,11 +281,11 @@ p {
     border-radius: 8px;
     text-align: center;
     margin-top: 50px;
-    border: 2px solid #005a32;
+    border: 2px solid var(--green);
 }
 
 .cta-section h3 {
-    color: #005a32;
+    color: var(--green);
     font-size: 1.5em;
     margin-bottom: 15px;
 }
@@ -314,7 +314,7 @@ p {
 }
 
 .btn-primary {
-    background: #005a32;
+    background: var(--green);
     color: white;
 }
 
@@ -325,9 +325,9 @@ p {
 }
 
 .btn-secondary {
-    background: white;
-    color: #005a32;
-    border: 2px solid #005a32;
+    background: var(--white);
+    color: var(--green);
+    border: 2px solid var(--green);
 }
 
 .btn-secondary:hover {
@@ -342,6 +342,11 @@ p {
     gap: 40px;
 }
 
+.section-title {
+    color: var(--white);
+    font-style: italic;
+}
+
 .info-block {
     padding: 20px;
     background: #f9f9f9;
@@ -350,7 +355,7 @@ p {
 }
 
 .info-block h3 {
-    color: #005a32;
+    color: var(--green);
     margin-bottom: 15px;
     font-size: 1.15em;
 }
@@ -362,7 +367,7 @@ p {
 }
 
 .info-block a {
-    color: #005a32;
+    color: var(--green);
     text-decoration: none;
     font-weight: 600;
 }
@@ -379,7 +384,7 @@ p {
 
 .intro-text {
     font-size: 1.1em;
-    color: #555;
+    color: var(--white);
     margin-bottom: 30px;
     text-align: center;
 }
@@ -389,10 +394,10 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-bottom: 50px;
+    color: #000;
 }
 
 .contact-column h3 {
-    color: #005a32;
     margin-bottom: 20px;
     font-size: 1.3em;
 }
@@ -401,7 +406,7 @@ p {
     background: #f5f7fa;
     padding: 25px;
     border-radius: 8px;
-    border-left: 4px solid #005a32;
+    border-left: 4px solid var(--green);
 }
 
 .info-box p {
@@ -442,6 +447,7 @@ p {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 15px;
+    color: #000;
 }
 
 .hours-table tr {
@@ -470,7 +476,7 @@ p {
 }
 
 .connect-section h3 {
-    color: #005a32;
+    color: var(--white);
     margin-bottom: 25px;
 }
 
@@ -486,6 +492,7 @@ p {
     border-radius: 8px;
     border: 1px solid #d0dce5;
     transition: transform 0.3s ease;
+    color:#000;
 }
 
 .connect-card:hover {
@@ -520,8 +527,8 @@ p {
 .btn-link {
     display: inline-block;
     padding: 10px 20px;
-    background: #005a32;
-    color: white;
+    background: linear-gradient(135deg, var(--blue) 0%, var(--green) 100%);
+    color: var(--white);
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
