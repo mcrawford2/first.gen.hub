@@ -5,7 +5,7 @@ Babson College First-Generation Student Success Office
 This site is a hub for all current, past, and present Babson first-generation college students to use as a resource, with information on how to find whatever support they need, 
 
 # Link to live site
-http://127.0.0.1:5501/project.home.html
+https://mcrawford2.github.io/first.gen.hub/ 
 
 # What you learned
 - I learned what it means to build a website for someone other than yourself, which can be difficult depending on the client's ability to communicate what theywant out of the project and the vision for the final project they have in mind.
