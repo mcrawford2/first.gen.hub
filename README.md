@@ -22,7 +22,9 @@ Contact:
 - move section headers to be within the same boxes as the paragraphs, and change colors to match
 - double check hours, newsletter, messaging
 - make sure all colors used match those in the root that are used across the whole website
+- check for responsive design - test in devtools
 
 # Notes
 - was not able to have interview until late in project timeline, so it is not complete yet
 - estimated completion date: 3/3
+- will get client feedback

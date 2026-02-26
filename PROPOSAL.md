@@ -13,6 +13,7 @@
 **Content status:**
 - need to apply interview responses across all pages
 - need to find source for images
+- they were unsure about what content they really want on the website, as many of their events are changing and new ones are being created
 
 **Style preferences:**
 - colors: navy blue, dark green, mustard yellow (match to common colors found on instagram account)
