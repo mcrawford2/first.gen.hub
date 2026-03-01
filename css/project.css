@@ -402,6 +402,12 @@ p {
     font-size: 1.3em;
 }
 
+.contact-column .section-title,
+.office-hours-title {
+    margin: 0 0 20px;
+    font-size: 1.3em;
+}
+
 .info-box {
     background: #f5f7fa;
     padding: 25px;
@@ -441,6 +447,11 @@ p {
 .office-hours-section h3 {
     color: #005a32;
     margin-bottom: 20px;
+}
+
+.office-hours-section h3.section-title {
+    color: var(--white);
+    font-style: italic;
 }
 
 .hours-table {
@@ -514,7 +525,8 @@ p {
     margin-bottom: 8px;
 }
 
-.connect-card a {
+.connect-card a,
+.connect-card a:visited {
     color: #005a32;
     text-decoration: none;
     font-weight: 500;
@@ -531,6 +543,16 @@ p {
     color: var(--white);
     border-radius: 4px;
     transition: background-color 0.3s ease;
+}
+
+.connect-card a.btn-link,
+.connect-card a.btn-link:visited {
+    color: var(--white);
+}
+
+.connect-card a.btn-link:hover {
+    color: var(--white);
+    text-decoration: none;
 }
 
 .btn-link:hover {
@@ -580,7 +602,7 @@ p {
 }
 
 .submit-btn {
-    background: #005a32;
+    background: linear-gradient(135deg, var(--blue) 0%, var(--green) 100%);
     color: white;
     padding: 12px 30px;
     border: none;
