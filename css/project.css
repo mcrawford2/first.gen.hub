@@ -130,6 +130,12 @@ p {
 .section-with-image .people {
     width: 500px;
     height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-with-image .people:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 .section-content {
@@ -175,6 +181,51 @@ p {
     border-left: 4px solid #005a32;
     margin-bottom: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: auto;
+}
+
+.program-image-needs {
+    width: 20%;
+    height: auto;
+    border-radius: 6px;
+    float: right;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.program-image-intern {
+    width: 20%;
+    height: auto;
+    border-radius: 6px;
+    float: right;
+}
+
+.program-image-passport {
+    width: 16%;
+    height: auto;
+    border-radius: 6px;
+    float: right;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.program-image-emerging {
+    width: 35%;
+    height: auto;
+    border-radius: 6px;
+    float: right;
+}
+
+.program-image-winter {
+    width: 12%;
+    height: auto;
+    border-radius: 6px;
+    float: right;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .program-card:hover {
@@ -195,7 +246,12 @@ p {
     color: #000;
 }
 
-.program-card ul,
+.program-card ul {
+    color: #000;
+    padding-left: 40px;
+    margin-left: 10px;
+}
+
 .program-card li {
     color: #000;
 }
@@ -413,6 +469,11 @@ p {
     padding: 25px;
     border-radius: 8px;
     border-left: 4px solid var(--green);
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-3px);
 }
 
 .info-box p {
@@ -423,7 +484,7 @@ p {
 .info-box a {
     color: #005a32;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .info-box a:hover {
@@ -442,6 +503,12 @@ p {
     padding: 30px;
     border-radius: 8px;
     margin-bottom: 40px;
+    transition: transform 0.3s ease;
+    border-left: 4px solid var(--green);
+}
+
+.office-hours-section:hover {
+    transform: translateY(-3px);
 }
 
 .office-hours-section h3 {
@@ -504,6 +571,7 @@ p {
     border: 1px solid #d0dce5;
     transition: transform 0.3s ease;
     color:#000;
+
 }
 
 .connect-card:hover {

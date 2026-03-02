@@ -13,18 +13,16 @@ https://mcrawford2.github.io/first.gen.hub/
 - I learned that the longer a file gets, the more difficult it is to stay organized. For this reason, it is hepful to add /* */ where possible to avoid confusion
 
 # What still needs to be done
-Programs:
-- add more pictures
-- double check which programs/events/surveys/resources they want on the page
-- fix all links
-Contact:
-- fix overall italicization
-- move section headers to be within the same boxes as the paragraphs, and change colors to match
-- double check hours, newsletter, messaging
-- make sure all colors used match those in the root that are used across the whole website
-- check for responsive design - test in devtools
+- 2/26-26-3/2/26, completed:
+    - added more images/graphics
+    - checked on allowed programs
+    - fixed links
+    - fixed italics on contact page
+    - changed structure of contact page
+- still ongoing:
+    - check for responsive design, potential problem with publishing github website
 
 # Notes
-- was not able to have interview until late in project timeline, so it is not complete yet
+- was not able to have interview until late in project timeline
 - estimated completion date: 3/3
 - will get client feedback
