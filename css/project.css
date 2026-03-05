@@ -256,6 +256,10 @@ p {
     color: #000;
 }
 
+.program-card a {
+    font-weight: normal;
+}
+
 .programs-full-section {
     max-width: 900px;
     margin: 0 auto;
