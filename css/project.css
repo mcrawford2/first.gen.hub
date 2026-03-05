@@ -114,7 +114,7 @@ p {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* project.home.html */
+/* index.html */
 .section-with-image {
     display: flex;
     gap: 40px;
@@ -695,7 +695,7 @@ p {
     background-color: #004422;
 }
 
-/* Footer (first used on project.home.html) */
+/* Footer (first used on index.html) */
 .footer {
     background: #005a32;
     color: white;
