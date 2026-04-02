@@ -24,5 +24,3 @@ https://mcrawford2.github.io/first.gen.hub/
 
 # Notes
 - was not able to have interview until late in project timeline
-- estimated completion date: 3/3
-- will get client feedback
